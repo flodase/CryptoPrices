@@ -6,7 +6,7 @@ install.packages("jsonlite")
 library(rlist)
 library(jsonlite)
 
-# get current system time
+# define final point
 t <- 1483225200 # just a dummy
 
 # define starting point (in seconds since January 1, 1970)
