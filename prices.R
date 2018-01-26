@@ -12,8 +12,6 @@ start <- 1483225200 # just a dummy
 # define final point
 t <- 1483225500 # just a dummy
 
-
-
 # create a new list and fetch values
 data <- list()
 for(i in seq(as.numeric(start), as.numeric(t), by=300)) {
