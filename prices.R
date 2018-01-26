@@ -6,11 +6,13 @@ install.packages("jsonlite")
 library(rlist)
 library(jsonlite)
 
-# define final point
-t <- 1483225200 # just a dummy
-
 # define starting point (in seconds since January 1, 1970)
-start <- 1483225500 # just a dummy
+start <- 1483225200 # just a dummy
+
+# define final point
+t <- 1483225500 # just a dummy
+
+
 
 # create a new list and fetch values
 data <- list()
